@@ -140,6 +140,7 @@ export default defineConfig((ctx) => {
                       // (gets superseded if process.env.PORT is specified at runtime)
 
       middlewares: [
+        'api', // <= this is our SSR-middleware (keep this as first one)
         'render' // keep this as last one
       ],
 

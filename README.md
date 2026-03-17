@@ -30,3 +30,8 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+
+
+### Crear esquema de BD
+1.  npx @better-auth/cli@latest generate
+2.  npx @better-auth/cli@latest migrate
